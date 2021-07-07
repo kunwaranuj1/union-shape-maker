@@ -27,7 +27,7 @@ should run in O(n) time.
 Here is a high level idea of an algorithm for the problem. “Cut the 2-D plane” along the piercing vertical
 line found above thereby dividing the original problem into two “simpler” sub-problems (why simpler?).
 Solve each of the sub-problems using a divide and conquer methodology and combine the solutions to
-obtain the final output. Your algorithm should run in O(n log n) time where n is the number of input
+obtain the final output. Algorithm should run in O(n log n) time where n is the number of input
 rectangles.
 # main()
 1. Read n from the user.
